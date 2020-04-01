@@ -1,0 +1,70 @@
+Bitwise operators are used to manipulate indivisual bits of a data item.
+These operator operate only on byte, char, short, int and long types.
+##Bitwise NOT(~)
+  a = 01000111
+  ~a = 10111000
+  
+##Bitwise AND(&)
+  a = 01000111
+  b = 00011001
+  a & b = 00000001
+  
+##Bitwise OR(|)
+  a | b = 01011111
+  
+##Bitwise Exclusiv OR(^)
+  *In this operation if the corresponding bits 0f the operands are identical, the resulting bit is 0, otherwise it is 1.
+  0^0 = 0     1^1 = 0
+  0^1 = 1     1^0 = 1
+  a ^ b = 01011110
+  
+##Left Shift Operator (<<)
+  *It shifts each bit of the operand to the left by specified number of positions(n). The general form of this operator is:
+    variable << n
+  *The leftmost bit is shifted and the rightmost bit is filled with zero.
+  EXAMPLE:
+    a = 25 = 00011001
+    a << 2
+    *It specifies that each bit is shifted left by 2 positions. The resuls,
+    after first shift is 00110010,    a = 50
+    after second shift is 01100100,   a = 100    
+    Thus the final value of a = 100.
+      **Each left shift is equivalent to multiplication by 2.
+    *One has to remember that Java promotes automatically the byte and short type to int type before evaluating them.
+    *When bits in signed integers are shifted left, the leftmost bit indicating the sign will be retained always,
+     i.e. a negative number after the shift will remain a negative number.
+  EXAMPLE:
+    a = -25 =  10011001
+    a << 2   -->  a = 11100100 = -100
+    
+##Right Shift Operator (>>)
+  *It shifts each bit of the operand to the right by specified number of positions(n). The general form of this operator is:
+    variable >> n
+  *The rightmost bit is shifted out and lost. The leftmost bit is sign extended.
+  *Each right shift is equivalent to devide by 2.
+  EXAMPLE:
+    a = 25 = 00011001
+    a >> 2  --> a = 0000110 = 6
+    
+    b = -25 = 10011001
+    b >> 2  --> b = 11100110
+    Notice that the leftmost sign bit is extended to the right each time and hence, the two extra 1s at the left.
+    **Both right shift (>>) and left shift (<<) operators retains the sign bits even after shifting.
+    
+##Right Shift Zero Fill Operator(>>>)
+  *This operator, >>>, performs the same type of operation done by right shift operator, >>, except that sign bit extension is not done.
+   Instead, zero will be inserted at the leftmost bit position for every shift.
+  *The general form of using this operator is:
+    variable >>> n
+    EXAMPLE:
+      b = -25 = 10011001
+      b >>> 2  --> b = 00100110 = 38
+      
+EXAMPLE:
+  1. a = a>>3 can be written as a >> = 3
+  2. b = b & c can be written as b &= c
+  3. y = y>>>n can be written as y >>>= n
+  
+
+    
+  
