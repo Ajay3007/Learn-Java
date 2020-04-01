@@ -1,0 +1,7 @@
+Increment --> ++
+Decrement --> --
+  The prefix operator (++var or --var) changes (inc by 1 or dec by 1) the value of the variable first and uses the variable.
+  When postfix operator (var++ or var--) is used, the value of the variable is used in the operation and then changes the value
+  (inc by 1 or dec by 1).
+  
+  
