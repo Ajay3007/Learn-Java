@@ -1,0 +1,18 @@
+Logical operators operate only on boolean operands and not on numeric operands.
+    Operation                   Operator Symbol
+    Logical AND                     &
+    Logical OR                      |
+    Logical XOR                     ^
+    Short-circuit OR                ||
+    Short-circuit AND               &&
+    Logical unary NOT               !
+    Equall to                       ==
+    Not equall to                   !=
+    Ternary if-else                 ?:
+    
+##Ternary Operator
+    expression1 ? expression2 : expression3
+        expression1 should alwayas results in boolean value true or false. If the expression1 results in true, expression2 is evaluated and
+    expression3 is descarded, otherwise, expression3 is evaluated and expression2 is descarded.
+    
+    
