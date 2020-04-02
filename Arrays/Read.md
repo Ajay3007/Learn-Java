@@ -41,10 +41,10 @@
     
    # Method ------------------------> Purpose of method
   # 1. Static int binarySearch(type[] array, type key)
-  * Searches the array(sorted) for the specific key using binary serach algorithm. Returns the index of key if found otherwise returns the index of the position at ehich the key is to be inserted + 1 with sign. The type can be byte, short, int, long, float, double, char and object
+  * Searches the array(sorted) for the specific key using binary serach algorithm. Returns the index of key if found otherwise returns the index of the position at ehich the key is to be inserted + 1 with -ve sign. The type can be byte, short, int, long, float, double, char and object
   
   # 2. Static int binarySearch(type[] array, int fromindex, int toIndex, type key)
-  * Searches the array(sorted) in range specified for the key using binary serach algorithm. Returns the index of key if found otherwise returns the index of the position at ehich the key is to be inserted + 1 with sign. The type can be byte, short, int, long, float, double, char and object
+  * Searches the array(sorted) in range specified for the key using binary serach algorithm. Returns the index of key if found otherwise returns the index of the position at ehich the key is to be inserted + 1 -ve with sign. The type can be byte, short, int, long, float, double, char and object
     
    # 3. Static type[] copyOf(type[] original, int newLen)
   * Copies the source array to another array of size newLen. The type can be byte, short, int, long, float, double, char and object
