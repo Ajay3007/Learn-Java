@@ -1,7 +1,6 @@
-    *An array is a variable representing a collection of like-typed data. Arrays are useful in representing vectors, matrices, strings and
-tables. When an array is created, it reserves a specified number of memory locations to strore the values of a collection of data of a particular type. 
-    *Each of the memory location is identified by an index associated with the array variable.
-    *An array is treated as an object.
+    * An array is a variable representing a collection of like-typed data. Arrays are useful in representing vectors, matrices, strings and tables. When an array is created, it reserves a specified number of memory locations to strore the values of a collection of data of a particular type. 
+     Each of the memory location is identified by an index associated with the array variable.
+     An array is treated as an object.
     
 ## ONE-DIMENTIONAL ARRAY
     In Java, an array is created in two steps:
@@ -9,7 +8,7 @@ tables. When an array is created, it reserves a specified number of memory locat
     2. An array object is to be created using 'new' operator by specifying number of memory locations required.
         int numb[];             // declares an array variable numb of type int.
         numb = new int[12];     // allocates memory for 12 int type.
-        Now, numb can handle 12 int type values, each value can be accessed by using values 0 to 11. Suppose, the 12 values are 7, 45,          3, 4, 26, 35, 40, 75, 99, 125, 54, 65, the array will be referred by the index given below:
+        Now, numb can handle 12 int type values, each value can be accessed by using values 0 to 11. Suppose, the 12 values are 7, 45, 3, 4, 26, 35, 40, 75, 99, 125, 54, 65, the array will be referred by the index given below:
         numb[0]---> 7
         numb[1]---> 45
         numb[2]---> 3
