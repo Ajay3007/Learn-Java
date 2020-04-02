@@ -22,6 +22,7 @@
         Array can be initialized by writting the values inside the braces { . , . , ... }. The above array can be written as:
         int numb[] = {7, 45, 3, 4, ... , 65};
         In that case the number of elements need not be specified.
+   
         
 ## MULTI-DIMENSIONAL ARRAY
     The following statement declare and allocate memory of a 3 X 4 matrix of int type:
@@ -35,4 +36,32 @@
         int mat[][] = {{.,.,..}, {.,.,...}, ... , {.,.,..}};
         
         
+# Array CLASS
+    *Java language has a built-in Arrays class packaged in java.util package.
+    
+   # Method ------------------------> Purpose of method
+  # 1. Static int binarySearch(type[] array, type key)
+  * Searches the array(sorted) for the specific key using binary serach algorithm. Returns the index of key if found otherwise returns the index of the position at ehich the key is to be inserted + 1 with sign. The type can be byte, short, int, long, float, double, char and object
+  
+  # 2. Static int binarySearch(type[] array, int fromindex, int toIndex, type key)
+  * Searches the array(sorted) in range specified for the key using binary serach algorithm. Returns the index of key if found otherwise returns the index of the position at ehich the key is to be inserted + 1 with sign. The type can be byte, short, int, long, float, double, char and object
+    
+   # 3. Static type[] copyOf(type[] original, int newLen)
+  * Copies the source array to another array of size newLen. The type can be byte, short, int, long, float, double, char and object
+  
+  # 4. Static void fill(type[] array, type val)
+  * Fills the array with the specified value val.
+  
+  # 5. Static void fill(type[] array, int fromIndex, int toIndex, type val)
+  * Fills the array in the specified range with the value val.
+  
+  # 6. Static void sort(type[] array)
+  * Sort the given array in ascending order. The type can be byte, short, int, long, float, double, char and object
+  
+  # 7. Static void sort(type[] array, int fromIndex, int toIndex)
+  * Sort the given array in the specified range in ascending order. The type can be byte, short, int, long, float, double, char and object
+  
+
         
+
+  
