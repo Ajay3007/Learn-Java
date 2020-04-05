@@ -102,3 +102,11 @@
 	Address(Address obj){
 		this(obj.name,obj.city,obj.pin);
 	}
+	
+# METHOD OVERLOADING
+	A class can contain any number of methods. Methods can take parameters as input for data manipulation. Java permots many methods to have same name, but with different type signatures.This way of methods having the same name, but with different type signature is known as method overloading.
+#Overloading methods exhibit the concept of polymorphism.
+
+
+	
+	
