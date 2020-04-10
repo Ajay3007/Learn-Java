@@ -23,7 +23,7 @@
     Method in a class can be protected from overriding methods in subclass. Like final classes, methods can be declared with the modifier 'final'. Methods declared as 'final' cannot have overriding methods in the subclasses.
     
 # FINAL VARIABLE
-    Variables can also be declared as 'final'. 'final' variables are constants. You cannot assign ane new value to them once you have declared them as final. final variables must be assigned values ehile declaring them to be final. 
+    Variables can also be declared as 'final'. 'final' variables are constants. You cannot assign any new value to them once you have declared them as final. final variables must be assigned values while declaring them to be final. 
     The general form of declarimg a 'final' variable is:
         final type VariableName = Value;
     By convention, final variables are declared with uppercase letters. Folloeing are few examples for final:
@@ -80,6 +80,7 @@
         Math.exp(Math.log(n))                  ---> antilog of n
         Math.sinh(x)/Math.cosh(x)/Math.tanh(x) ---> Hyperbolic
         Math.pow(a,b)                          ---> gives a ^ b
+        Math.sqrt(x)                           ---> gives square root of x
         
 # TIME AND DATE
     Java has a class GregorianCalender contained in java,util package. This has several methods to handle date, year,month, day, hour, minutes, AM, PM etc.One can make use of this class wheneve time and date related info is needed from the system.
