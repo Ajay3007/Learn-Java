@@ -56,12 +56,12 @@
             body;
         }
     Here, the modifier is either public or no modifier.
- #Java doesn't support multiple inheritance like C++. Java supports only multilevel inheritance.
+    Java doesn't support multiple inheritance like C++. Java supports only multilevel inheritance.
         Multiple Inheritance                                              Multilevel Inheritance
            Class A      Class B     Class C                                     Class A
                  Class D Extends A,B,C                                       Class B Extends A
                                                                              Class C Extends B
- #A class can implement more than one interface, exhibiting multiple inheritance.
+    A class can implement more than one interface, exhibiting multiple inheritance.
         The functionality of multiple inheritance in Java is realized through the interfaces, in which a class can implement any number of interfaces.
         A class implementing an interface can also have additional methods of its own.
      The following is an example for implementating an interface Calculation:
