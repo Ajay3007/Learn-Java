@@ -46,8 +46,29 @@
             In example 3 and 4 operator precedence is observed.
             
 # Useful Methods for String objects
-            Method                      Purpose of the Method
-        1. char charAt(int index)               Returns teh character at the index position of the invoking object; the index counted as 0 for the first character.
-        2. 
-            
+        Refer the program StringSort.java and StringExtract.java
         
+# The toString() method
+    When an object is created using new operator, a reference to the object is created.
+    A default toString() method in the super object converts this reference to a human readable string form and store it in the object reference.
+    This string can be printed out using the println method.
+            
+# THE StringBuffer CLASS
+    * Strings that need modification are handled by StringBuffer class. After creating a StringBuffer, new string can be inserted or appended to it.
+    * The size of the StringBuffer can grow whenever neede. StringBuffer objects can be dynamically altered.
+    * When a StringBuffer is created, space for '16' more characters is always appended with it. This helps the StringBuffer object to grow by 16 more characters without any other process.
+    * That is the size of StringBuffer is the number of character in that string plus 16. 
+    * When the string grows beyond the free 16 character space, the StringBuffer is relocated to a new memory space with the required size.
+    * StringBuffer type objects are safe to use in multithreaded environment.
+    The constructors in StringBuffer class help to create StringBuffer objects. The constructors are:
+        1. StringBuffer()  --> creates an empty StringBuffer objects, it has 16-character space
+        2. StringBuffer(int size) --> create a StringBuffer object with a buffer of size capacity
+        3. StringBuffer(String str) --> create a StringBuffer object with the string str plus space of 16 character
+    The equals() method defined in String class is also available in StringBuffer class. The equals() method can be used to compare the same type of string object and not the mixed.
+    That is, a String object cannot be compared with StringBuffer object.
+    
+    Refer program StringBuff.java
+    
+# THE StringBuilder CLASS
+    There is yet another class StringBuilder to handle mutable and flexible string. It has all method defined in StringBuffer class.
+    StringBuilder type strings are not safe to use in multiple threads.
