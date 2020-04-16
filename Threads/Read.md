@@ -50,6 +50,36 @@
 
 # MULTITHREADED PROGRAMMING
     In earlier, we have seen only one thread. Now we will see how to write a multithreaded program. When a program is started a thread is automatically created. It is called the main thread. 
+    The main thread can be accessed using the currentThread() method of the Thread class.
+    Refer program TwoThread.java for the code.
+    
+# THREAD PRIORITIES
+    Threads can be assigned priorities. The priorities are used by the OS to find out which runnable thread is to be given the CPU time. Priorities are given by numbers ranging from 1 to 10. 
+    A thread with higher priority number will be given preference over the thread with lower priority numbers. The priority thread can be set using the method:
+    setPriority(intpri-numb);
+    There are three predefined priorities. MIN_PRIORITY with a value 1, NORM_PRIORITY with a value 5 and MAX_PRIORITY with a value 10. When a thread is created a NORM_PRIORITY is given.
+    To obtain the priority of a thread, the     int getPriority()   method can be used.
+    The scheduling of the threads to running state depends on the OS. It is not guaranteed that thraeds of equal priorities are given equal CPU time.
+    Refer the program ThreadPriority.java for the code.
+    
+# WAITING FOR A THREAD - join() METHOD
+    In some problem, it may be required to wait for a perticular thread to complete its task before another thread to proceed with. In such occation the join() method of Thread class can be used.
+    When join method is called on a thread object the control waits for the thread to complete its task and becomes a dead thread. Then control proceeds with the normal course of excution.
+    Refer the program Threadjoin.java for the code.
+    
+# CONTROLLING THE THREAD
+    The objective of multithreading is to deal with sub-task independent of each other and to utilized the CPU time optimally.
+    In a multithreaded program, if a particular thread is assigned a higher priority and if it needs longer time to complete its task, then the other runnable threads have to keep waiting. 
+    Java has two methods which can change the running state of thread to blocked state. These are:
+    1. static void sleep(long ms)-->Makes the thread to sleep for ms millisecond. When a thread calls a sleep method, it goes from running state to blocked state. 
+        It remain blocked till the specified amount of time, wakes up and goes to runnable state.
+        Refer the program Threadsleep.java for the code.
+        
+    2. static void yield()--> Causes the running thread to yield to other runnable thread. If there are runnable threads which have same or higher priority of the yielding thread, one of them will be scheduled to run in the CPU. 
+        The yielding thread will be in  runnable untill it gets its next turn. If there are no runnabl threads with the same or higher priority, the yielding thread will again come back to running state and continue to run in the CPU.
+        Refer program Threadyield.java for the code.
+    
+#When a program is excuted, a thread is created in the main() method implicitly. This thread is called main thread. A reference can be obtained to this thread using 'currentThread()' method.
     
     
     
