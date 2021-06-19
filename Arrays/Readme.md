@@ -1,3 +1,21 @@
+<div align="center">
+  <h1> Learn Java: Arrays</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/ajay-gupt-a93b53192/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/_codesaj">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/_codesaj?style=social">
+  </a>
+
+  <sub>Author:
+  <a href="https://www.linkedin.com/in/ajay-gupt-a93b53192/" target="_blank">Ajay Gupt</a><br>
+  <small>2020</small>
+  </sub>
+</div>
+</div>
+
+[<< Control Statement](../Control%20Statement/Readme.md) | [Strings >>](../Strings/Readme.md)
+
     * An array is a variable representing a collection of like-typed data. Arrays are useful in representing vectors, matrices, strings and tables. When an array is created, it reserves a specified number of memory locations to strore the values of a collection of data of a particular type. 
      Each of the memory location is identified by an index associated with the array variable.
      An array is treated as an object.
