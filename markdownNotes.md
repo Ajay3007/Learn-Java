@@ -1,4 +1,31 @@
-# Markdown Notes
+<div align="center">
+  <h1>Markdown Notes</h1>
+  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/ajay-gupt-a93b53192/">
+  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
+  </a>
+  <a class="header-badge" target="_blank" href="https://twitter.com/_codesaj">
+  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/_codesaj?style=social">
+  </a>
+
+<sub>Author:
+<a href="https://www.linkedin.com/in/ajay-gupt-a93b53192/" target="_blank">Ajay Gupt</a><br>
+<small>2020</small>
+</sub>
+
+</div>
+</div>
+
+## Contents:
+
+- [Headers](#headers)
+- [Emphasis](#emphasis)
+- [Lists](#lists)
+- [Codes](#codes)
+- [Inline Code](#inline-code)
+- [Images](#images)
+- [Links](#links)
+- [Tables](#tables)
+- [Blockquote](#blockquotes)
 
 ## Headers
 
