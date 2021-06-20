@@ -16,10 +16,12 @@
 
 [<< Control Statement](../Control%20Statement/Readme.md) | [Strings >>](../Strings/Readme.md)
 
-    * An array is a variable representing a collection of like-typed data. Arrays are useful in representing vectors, matrices, strings and tables. When an array is created, it reserves a specified number of memory locations to strore the values of a collection of data of a particular type. 
+<div>
+    An <b>array</b> is a variable representing a collection of like-typed data. Arrays are useful in representing vectors, matrices, strings and tables. When an array is created, it reserves a specified number of memory locations to strore the values of a collection of data of a particular type. 
      Each of the memory location is identified by an index associated with the array variable.
      An array is treated as an object.
-    
+</div>
+
 ## ONE-DIMENTIONAL ARRAY
     In Java, an array is created in two steps:
     1. An array variable is to be declared.
