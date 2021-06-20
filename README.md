@@ -21,6 +21,8 @@ Here, you will get to know basics of Java Programming.
 
 ## Contents:
 
+- [Java through cmd](#run-java-from-command-line)
+
 1. Structure of a java program
 2. Classes
 3. Input ans Output Classes
@@ -33,16 +35,30 @@ Here, you will get to know basics of Java Programming.
 10. Exceptions
 11. Threads
 
-# To run a Java file in windows cmd:
+## Run Java from Command Line
 
-    1. Save the file with 'FileName.java'
-    2. In cmd Navigate the prompt in the directory where the 'FileName.java' file exists.
-    3. Type    javac FileName.java
-        A FileName.class file will be created in the same directory.
-    4. Type    java FileName
+#### To run a Java file in windows cmd:
 
-# To print on screen use function printf()
+1. Save the file with 'FileName.java'
+2. In cmd Navigate the prompt in the directory where the 'FileName.java' file exists.
+3. Type javac FileName.java
+   A FileName.class file will be created in the same directory.
+4. Type java FileName
 
-# readLine() method reads the keyboard entries as string
+**To print on screen use function:**
 
-# Integer.parseInt() converts String to int
+```java
+printf()
+```
+
+**To reads the keyboard entries in string form:**
+
+```java
+readLine()
+```
+
+**To converts String to int:**
+
+```java
+Integer.parseInt()
+```
