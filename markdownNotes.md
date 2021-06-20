@@ -9,7 +9,7 @@
 
 <sub>Author:
 <a href="https://www.linkedin.com/in/ajay-gupt-a93b53192/" target="_blank">Ajay Gupt</a><br>
-<small>2020</small>
+<small>2021</small>
 </sub>
 
 </div>
@@ -20,6 +20,8 @@
 - [Headers](#headers)
 - [Emphasis](#emphasis)
 - [Lists](#lists)
+  - [Unordered List](#unordered-list)
+  - [Ordered List](#ordered-list)
 - [Codes](#codes)
 - [Inline Code](#inline-code)
 - [Images](#images)
@@ -74,7 +76,7 @@ __This is also Bold__
 
 ## Lists
 
-**Unordered List**
+### Unordered List
 
 ```
 * This is an unordered list type 1
@@ -124,7 +126,7 @@ __This is also Bold__
   - Nested in consistence
 * This is more consistence
 
-**Orderd List**
+### Ordered List
 
 ```
 1. List item 1
@@ -138,22 +140,33 @@ __This is also Bold__
 
 ## Codes
 
-- Codes can be added with <code>``` codes in between ````</code>
-- We can specify code language just after <code>```js fpr javascript</code>
+Use open and closed tripple backticks:
+
+<div>
+<ul>
+  <li>Codes can be added with <code>``` codes in between ```</code><br>
+  <li>We can specify code language also <code>```js codes in between ```</code> for javascript, and so on.
+</ul>
+</div>
 
 ## Inline Code
 
+Use open and closed single backtick:
+
 ```
-`your code`
+This is inline code `your-code`
 ```
 
-`your code`
+This is inline code `your-code`
 
 ## Images
 
 ```
 Syntax:
 ![Alt-text](url)
+
+Example:
+![Markdown Cheet Sheet](Images/Markdown-Helper.jpg)
 ```
 
 ![Markdown Cheet Sheet](Images/Markdown-Helper.jpg)
@@ -163,6 +176,9 @@ Syntax:
 ```
 Syntax:
 [Discriptiove-text](url)
+
+Example:
+Go to [My Portfolio](https://ajay3007.github.io/)
 ```
 
 Go to [My Portfolio](https://ajay3007.github.io/)
